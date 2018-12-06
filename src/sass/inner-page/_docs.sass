@@ -1,0 +1,68 @@
+.docs
+	position: relative
+	padding: 60px 0
+	+r(768)
+		padding: 30px 0
+	&__wrapper
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+	&__block
+		display: flex
+		margin-bottom: 30px
+		justify-content: space-between
+		width: 49%
+		+r(992)
+			flex-direction: column
+		+r(576)
+			width: 100%
+		&_img
+			position: relative
+			img
+				display: block
+				object-fit: cover
+				overflow: hidden
+				width: 170px
+				height: 230px
+				margin-right: 30px
+				border-radius: 10px
+				box-shadow: 0 20px 40px 0 rgba(26, 19, 19, 0.2)
+				+r(992)
+					margin: 0 0 30px
+				+r(576)
+					width: 300px
+					height: 400px
+					margin: 0 auto 30px
+				+r(350)
+					width: 100%
+		&_text
+			position: relative
+			padding: 10px 0
+			h3
+				font-size: 24px
+				font-weight: 700
+				color: $mine-shaft
+				padding-bottom: 15px
+				margin-bottom: 20px
+				position: relative
+				&::after
+					content: ''
+					width: 120px
+					height: 2px
+					background: $tan
+					position: absolute
+					left: 0
+					bottom: 0
+				+r(768)
+					font-size: 20px
+			p
+				font-size: 14px
+				font-weight: 500
+				margin-bottom: 30px
+				+r(768)
+					font-size: 12px
+		.button
+			+r(576)
+				margin: 0 auto
+			+r(320)
+				width: 100%

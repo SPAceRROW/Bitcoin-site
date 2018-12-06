@@ -1,0 +1,146 @@
+.title
+	text-align: center
+	position: relative
+	&_white
+		color: $white
+	h2
+		font-family: $title-font
+		font-weight: 700
+		font-size: 42px
+		line-height: 1em
+		+r(768)
+			font-size: 32px
+	&_left
+		text-align: left
+	&_line
+		padding-bottom: 15px
+		padding-top: 15px
+		margin-bottom: 25px
+		+r(992)
+			margin-bottom: 15px
+			padding: 0
+		&::after
+			content: ''
+			position: absolute
+			left: 0
+			bottom: 0
+			width: 100px
+			height: 2px
+			background: $tan
+			+r(992)
+				content: none
+.logo
+	position: relative
+	z-index: 1000
+	transition: all .3s ease
+	img
+		display: block
+		width: 135px
+		height: 65px
+		transition: all .3s ease
+
+a, button
+	&.button
+		z-index: 300
+		position: relative
+		background-image: linear-gradient( to top, rgb(255,127,0) 0%, rgb(253,195,85) 100%);
+		box-shadow: 0 10px 40px 0 rgba(255, 133, 7, 0.2),inset 0px -3px 0px 0px rgba(0, 0, 0, 0.3)
+		border-radius: 30px
+		font-size: 20px
+		letter-spacing: 0.04em
+		font-family:  $title-font
+		font-weight: 700
+		text-transform: uppercase
+		color: $white
+		line-height: 1em
+		transition: all .3s ease
+		padding: 20px 30px
+		display: inline-block
+		text-align: center
+		&:hover,&:focus
+			background-image: linear-gradient( to top, rgb(255,145,0) 0%, rgb(255,225,76) 100%)
+			box-shadow: 0 10px 50px 0 rgba(255, 133, 7, 0.3),inset 0px -3px 0px 0px rgba(0, 0, 0, 0.3)
+	+r(320)
+		width: 100%
+		text-align: center
+
+.swiper-slide
+	display: flex
+	padding: 50px 0
+	opacity: 0!important
+	+r(1200)
+		flex-direction: column
+		padding: 50px 0 100px
+	+r(768)
+		padding: 20px 0 100px
+.swiper-slide-active
+	opacity: 1!important
+.swiper-pagination-fraction
+	z-index: 1
+	width: 100px
+	text-align: left
+	bottom: 50px
+	font-size: 60px
+	font-family: $title-font
+	font-weight: 300
+	color: $white
+	line-height: 1em
+	left: 40px
+	+r(1200)
+		bottom: 15px
+		left: 50px
+.swiper-pagination-current
+	font-size: 48px
+	font-family: $title-font
+	font-weight: 700
+	color: $tan
+	position: absolute
+	transform: translateX(-37px)
+	&:before
+		content: '0'
+
+.swiper-pagination-total
+	font-size: 24px
+	font-family: $title-font
+	font-weight: 700
+	color: $white
+	position: absolute
+	transform: translateY(7px)
+	&:before
+		content: '0'
+.swiper-button-next,
+.swiper-button-prev
+	bottom: 60px
+	top: auto
+	width: 48px
+	height: 40px
+	background-size: 48px 58px
+	+r(1200)
+		bottom: 20px
+.swiper-button-next
+	left: 289px
+	background-image: url("../img/button-next.svg")
+	+r(1200)
+		left: auto
+		right: 0
+	&:hover
+		background-image: url("../img/button-hover-next.svg")
+.swiper-button-prev
+	left: 240px
+	background-image: url("../img/button.svg")
+	+r(1200)
+		left: auto
+		right: 48px
+	&:hover
+		background-image: url("../img/button-hover-prev.svg")
+	&::before
+		content: ''
+		position: absolute
+		background: #eaeaea
+		right: -1px
+		top: 0
+		width: 1px
+		height: 40px
+		opacity: 1
+.swiper-button-disabled
+	opacity: 0.8

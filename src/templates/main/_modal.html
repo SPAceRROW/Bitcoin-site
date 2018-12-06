@@ -1,0 +1,40 @@
+<div id="thanks" class="modal thanks">
+  <div class="thanks_close">
+    {{mixins.icon('cancel')}}
+  </div>
+  <div class="modal__thanks">
+    <h3>Спасибо</h3>
+    <p>Скоро мы Вам перезвоним!</p>
+  </div>
+</div>
+<div id="modal" class="modal">
+  <div class="modal_close">
+    {{mixins.icon('cancel')}}
+  </div>
+  <h3>
+    Стать партнером BBFpro
+  </h3>
+  <p>
+    Приобретите криптомат BBFpro и станьте нашим партнером получая 6% комиссии
+  </p>
+  <form action="sendmail.php" class="form">
+    <div class="form__label">
+      <input type="text" name="name" placeholder="Имя" required>
+    </div>
+    <div class="form__label">
+      <input type="tel" name="tel" placeholder="Телефон" required>
+    </div>
+    <button class="button">
+      Оставить заявку на покупку
+    </button>
+    <div class="form__checkbox_wrapper form__label">
+      <div class="form__checkbox">
+          <input type="checkbox" value="agree" id="agreeTwo" name="agree" class="checkbox" checked required>
+          <label for="agreeTwo" class="form__checkbox_label">
+            Я согласен с Условиями использования
+            личных данных
+          </label>
+      </div>
+    </div>
+  </form>
+</div>

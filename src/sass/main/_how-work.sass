@@ -1,0 +1,130 @@
+.how-work
+	position: relative
+	background: url("../img/second-screen-bg.png") center no-repeat
+	padding: 110px 0
+	background-size: cover
+	+r(768)
+		padding: 50px 0
+	&__slider
+		margin-bottom: 60px
+		+r(768)
+			margin-bottom: 30px
+
+	&__info
+		max-width: 290px
+		margin-right: 70px
+		background: $white
+		max-height: 325px
+		+r(1200)
+			max-width: none
+			padding-bottom: 15px
+			margin-right: 0
+			max-height: none
+		//	min-height: 126px
+		//+r(992)
+		//	min-height: 122px
+		//+r(576)
+		//	min-height: 152px
+		h3
+			font-weight: 700
+			font-size: 24px
+			color: $mine-shaft
+			margin-top: 20px
+			padding-bottom: 20px
+			margin-bottom: 30px
+			position: relative
+			&::before
+				content: ''
+				width: 120px
+				height: 2px
+				position: absolute
+				background: $tan
+				bottom: 0
+				left: 0
+			+r(1200)
+				margin-top: 0
+			+r(768)
+				font-size: 20px
+				padding-bottom: 15px
+				margin-bottom: 20px
+		&_text
+			font-weight: 500
+			font-size: 14px
+			+r(768)
+				font-size: 12px
+			p
+				margin-bottom: 15px
+				&:last-child
+					margin-bottom: 0
+				+r(1200)
+					margin-bottom: 20px
+					&:last-child
+						margin-bottom: 0
+
+	&__img-box
+		width: 100%
+		max-width: 775px
+		height: 490px
+		display: flex
+		justify-content: center
+		align-items: center
+		background: $white
+		border-radius: 0 0 10px 10px
+		padding: 10px 0 0
+		+r(1200)
+			max-width: none
+			height: auto
+		img
+			border-radius: 10px
+			object-fit: cover
+			width: 775px
+			height: 490px
+			box-shadow: 0 5px 10px 0 rgba(26, 19, 19, 0.2)
+			+r(1200)
+				width: 100%
+				height: 400px
+			+r(992)
+				height: 300px
+			+r(768)
+				height: auto
+	&__bg
+		position: absolute
+		right: 0
+		bottom: -120px
+		+r(1600)
+			right: -200px
+		+r(1400)
+			right: -300px
+		+r(1200)
+			display: none
+	&__demo
+		display: flex
+		align-items: center
+		margin-bottom: 60px
+		+r(768)
+			flex-direction: column
+			align-items: flex-start
+			margin-bottom: 25px
+		&_title
+			font-family: $title-font
+			font-weight: 700
+			font-size: 42px
+			color: $white
+			line-height: 1em
+			padding: 10px 30px 10px 0
+			border-right: 2px solid $tan
+			+r(768)
+				padding-right: 0
+				font-size: 32px
+				border: none
+				padding-bottom: 5px
+		&_info
+			color: $scorpion
+			margin-left: 30px
+			max-width: 250px
+			line-height: 1.5em
+			+r(768)
+				margin-left: 0
+				max-width: none
+				font-size: 12px
+

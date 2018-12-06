@@ -1,0 +1,83 @@
+.footer
+	position: relative
+	background: $cod-grey
+	min-height: 300px
+	padding: 60px 0 50px
+	+r(1200)
+		text-align: center
+		padding: 50px 0
+	.logo__footer
+		width: 135px
+		height: auto
+		margin-bottom: 35px
+		z-index: 1
+		+r(1200)
+			margin: 0 auto 30px
+	&__social
+		position: relative
+		margin-bottom: 25px
+		a
+			display: inline-block
+			position: relative
+			width: 30px
+			height: 30px
+			border-radius: 50%
+			background: $eunry
+			text-align: center
+			margin-right: 5px
+			&:last-child
+				margin-right: 0
+			&:hover
+				.icon
+					fill: $mine-shaft
+		.icon
+			fill: $white
+			margin: 7px 0
+			font-size: 16px
+			transition: all .3s ease
+	.copyright
+		font-weight: 700
+		font-size: 14px
+		color: $tan
+		display: none
+		&-desktop
+			+rmin(1200)
+				display: block
+		&-mobile
+			+r(1200)
+				display: block
+	h4
+		font-weight: 600
+		text-transform: uppercase
+		font-size: 14px
+		color: $tan
+		margin-bottom: 15px
+	p
+		color: $white
+		font-size: 14px
+		margin-bottom: 15px
+		line-height: 1em
+		&:last-child
+			margin-bottom: 0
+			+r(576)
+				margin-bottom: 30px
+		a
+			color: $white
+			transition: all .3s ease
+			&:hover
+				color: $tan
+	.tel
+		font-size: 18px
+	ul
+		+r(1200)
+			margin-bottom: 30px
+		li
+			margin-bottom: 15px
+			line-height: 1em
+			&:last-child
+				margin-bottom: 0
+			a
+				color: $white
+				transition: all .3s ease
+				&:hover
+					color: $tan

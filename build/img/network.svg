@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480">
+    <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="216" y1="72" x2="264" y2="72">
+        <stop offset="0" stop-color="#de8244"/>
+        <stop offset="1" stop-color="#f1c062"/>
+    </linearGradient>
+    <path d="M240 96a8 8 0 0 1-8-8h-16a24.002 24.002 0 0 0 16 22.527V120h16v-9.473A24.002 24.002 0 0 0 264 88c0-12.945-11.809-18.84-20.426-23.16C236.801 61.457 232 58.832 232 56a8 8 0 0 1 16 0h16a24.002 24.002 0 0 0-16-22.527V24h-16v9.473A24.002 24.002 0 0 0 216 56c0 12.945 11.809 18.84 20.426 23.16C243.199 82.543 248 85.168 248 88a8 8 0 0 1-8 8zm0 0" fill="url(#a)"/>
+    <linearGradient id="b" gradientUnits="userSpaceOnUse" x1="136" y1="88" x2="344" y2="88">
+        <stop offset="0" stop-color="#de8244"/>
+        <stop offset="1" stop-color="#f1c062"/>
+    </linearGradient>
+    <path d="M160 144h48v16h-24v16h112v-16h-24v-16h48c13.254 0 24-10.746 24-24V24c0-13.254-10.746-24-24-24H160c-13.254 0-24 10.746-24 24v96c0 13.254 10.746 24 24 24zm96 16h-32v-16h32v16zM152 24a8 8 0 0 1 8-8h160a8 8 0 0 1 8 8v96a8 8 0 0 1-8 8H160a8 8 0 0 1-8-8V24zm0 0" fill="url(#b)"/>
+    <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="80" y1="376" x2="128" y2="376">
+        <stop offset="0" stop-color="#de8244"/>
+        <stop offset="1" stop-color="#f1c062"/>
+    </linearGradient>
+    <path d="M104 352a8 8 0 0 1 8 8h16a24.002 24.002 0 0 0-16-22.527V328H96v9.473A24.002 24.002 0 0 0 80 360c0 12.945 11.809 18.84 20.426 23.199C107.199 386.543 112 389.168 112 392a8 8 0 0 1-16 0H80a24.002 24.002 0 0 0 16 22.527V424h16v-9.473A24.002 24.002 0 0 0 128 392c0-12.945-11.809-18.84-20.426-23.199C100.801 365.457 96 362.832 96 360a8 8 0 0 1 8-8zm0 0" fill="url(#c)"/>
+    <linearGradient id="d" gradientUnits="userSpaceOnUse" y1="392" x2="208" y2="392">
+        <stop offset="0" stop-color="#de8244"/>
+        <stop offset="1" stop-color="#f1c062"/>
+    </linearGradient>
+    <path d="M184 304H24c-13.254 0-24 10.746-24 24v96c0 13.254 10.746 24 24 24h48v16H48v16h112v-16h-24v-16h48c13.254 0 24-10.746 24-24v-96c0-13.254-10.746-24-24-24zm-64 160H88v-16h32v16zm72-40a8 8 0 0 1-8 8H24a8 8 0 0 1-8-8v-96a8 8 0 0 1 8-8h160a8 8 0 0 1 8 8v96zm0 0" fill="url(#d)"/>
+    <linearGradient id="e" gradientUnits="userSpaceOnUse" x1="352" y1="376" x2="400" y2="376">
+        <stop offset="0" stop-color="#de8244"/>
+        <stop offset="1" stop-color="#f1c062"/>
+    </linearGradient>
+    <path d="M376 352a8 8 0 0 1 8 8h16a24.002 24.002 0 0 0-16-22.527V328h-16v9.473A24.002 24.002 0 0 0 352 360c0 12.945 11.809 18.84 20.426 23.199C379.199 386.543 384 389.168 384 392a8 8 0 0 1-16 0h-16a24.002 24.002 0 0 0 16 22.527V424h16v-9.473A24.002 24.002 0 0 0 400 392c0-12.945-11.809-18.84-20.426-23.199C372.801 365.457 368 362.832 368 360a8 8 0 0 1 8-8zm0 0" fill="url(#e)"/>
+    <linearGradient id="f" gradientUnits="userSpaceOnUse" x1="272" y1="392" x2="480" y2="392">
+        <stop offset="0" stop-color="#de8244"/>
+        <stop offset="1" stop-color="#f1c062"/>
+    </linearGradient>
+    <path d="M456 304H296c-13.254 0-24 10.746-24 24v96c0 13.254 10.746 24 24 24h48v16h-24v16h112v-16h-24v-16h48c13.254 0 24-10.746 24-24v-96c0-13.254-10.746-24-24-24zm-64 160h-32v-16h32v16zm72-40a8 8 0 0 1-8 8H296a8 8 0 0 1-8-8v-96a8 8 0 0 1 8-8h160a8 8 0 0 1 8 8v96zm0 0" fill="url(#f)"/>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="80" y1="240" x2="400" y2="240">
+        <stop offset="0" stop-color="#de8244"/>
+        <stop offset="1" stop-color="#f1c062"/>
+    </linearGradient>
+    <path d="M96 256a8 8 0 0 1 8-8h272a8 8 0 0 1 8 8v32h16v-32c0-13.254-10.746-24-24-24H248v-40h-16v40H104c-13.254 0-24 10.746-24 24v32h16v-32zm0 0" fill="url(#g)"/>
+</svg>

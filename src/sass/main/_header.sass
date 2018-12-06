@@ -1,0 +1,106 @@
+.header
+	position: relative
+	min-height: 670px
+	padding: 215px 0 100px
+	background: url("../img/header-bg.jpg") center no-repeat
+	background-size: cover
+	display: flex
+	justify-content: end
+	+r(1200)
+		background-position: right
+	+r(992)
+		min-height: auto
+		padding: 180px 0 60px
+	+r(768)
+		padding: 150px 0 35px
+	+r(576)
+		background-image: $brown-gradient
+	&__content
+		position: relative
+		max-width: 670px
+		width: 100%
+		margin: 0 0 0 auto
+		+r(1200)
+			max-width: none
+		+r(992)
+			text-align: center
+		h1
+			font-family: $title-font
+			font-weight: 700
+			font-size: 42px
+			color: $golden-tainoi
+			line-height: 1em
+			margin-bottom: 10px
+			+r(992)
+				font-size: 36px
+			+r(768)
+				font-size: 32px
+				padding: 0 5px
+		h2
+			font-family: $default-font
+			font-weight: 500
+			font-size: 30px
+			color: $white
+			margin-bottom: 45px
+			+r(992)
+				font-size: 24px
+				margin-bottom: 55px
+			+r(768)
+				font-size: 20px
+		ul
+			margin-bottom: 80px
+			+r(992)
+				padding-top: 60px
+				position: relative
+				margin-bottom: 50px
+				&::before
+					content: ''
+					width: 35px
+					height: 25px
+					border-left: 7px solid $atlantis
+					border-bottom: 7px solid $atlantis
+					position: absolute
+					transform: rotate(-45deg) translateX(-50%)
+					top: 0
+					left: 50%
+			li
+				font-family: $default-font
+				font-weight: 500
+				font-size: 18px
+				position: relative
+				letter-spacing: 0.02em
+				color: $white
+				margin-bottom: 10px
+				padding-left: 30px
+				+r(992)
+					font-size: 16px
+					margin-bottom: 5px
+					padding-left: 0
+				+r(768)
+					font-size: 12px
+					margin-bottom: 0
+				&::before
+					content: ''
+					width: 13px
+					height: 8px
+					position: absolute
+					left: 0
+					top: 40%
+					transform: translateY(-50%) rotate(-45deg)
+					border-bottom: 3px solid  $atlantis
+					border-left: 3px solid $atlantis
+					+r(992)
+						content: none
+
+		p
+			padding-left: 30px
+			font-family: $default-font
+			font-weight: 500
+			font-size: 16px
+			color: $zorba
+			line-height: 1.5em
+			border-left: 2px solid $tan
+			+r(992)
+				border-left: none
+				padding: 40px 15px 0
+

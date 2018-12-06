@@ -1,0 +1,191 @@
+.tech-char
+	position: relative
+	background: url("../img/tech-bg.png") center bottom no-repeat
+	background-size: cover
+	padding: 110px 0 130px
+	+r(992)
+		padding: 90px 0
+	+r(768)
+		padding: 50px 0
+	.swiper-container
+		overflow: initial
+	.swiper-slide
+		display: flex
+		justify-content: center
+		align-items: center
+		padding: 50px 0
+		+r(768)
+			padding: 30px 0
+	&__slider
+		width: 100%
+		padding-right: 15px
+		padding-left: 15px
+		margin-right: auto
+		margin-left: auto
+		+rmin(1200)
+			max-width: 1200px
+		+rmin(992)
+			max-width: 960px
+		+rmin(768)
+			max-width: 720px
+		+rmin(576)
+			max-width: 540px
+	&__block
+		position: relative
+		border-radius: 10px
+		left: 0
+		width: 100%
+		background-color: rgb(255, 255, 255)
+		box-shadow: 0 20px 40px 0 rgba(26, 19, 19, 0.2)
+		height: 650px
+		background-image: url('../img/tech-slide-bg.png')
+		background-position:  bottom left
+		background-repeat: no-repeat
+		+r(992)
+			height: auto
+			overflow: hidden
+			background-image: none
+		.terminal
+			img
+				position: absolute
+				bottom: 0
+				left: 0
+				width: 270px
+				height: 570px
+				+r(992)
+					bottom: -100px
+					left: 10px
+				//+r(768)
+				//	transform: translateY(100px)
+				//+r(576)
+				//	transform: translateY(150px)
+		.abs
+			+rmin(992)
+				display: none
+			img
+				position: absolute
+				bottom: 0
+				left: 0
+				right: 0
+				width: 100%
+		&_info
+			margin-left: 400px
+			margin-top: 35px
+			h3
+				font-weight: 700
+				font-size: 24px
+				color: $mine-shaft
+				margin-bottom: 35px
+				+r(768)
+					font-size: 20px
+					margin-bottom: 15px
+			+r(992)
+				padding-top: 15px
+				margin-left: 30px
+				overflow: hidden
+			+r(768)
+				margin: 0 15px
+		.more-info
+			display: block
+			text-align: center
+			position: relative
+			z-index: 1
+			top: 20px
+			color: $zest
+			text-decoration: underline
+			font-weight: 500
+			font-size: 14px
+			margin-bottom: 500px
+			+rmin(992)
+				display: none
+
+		&_text
+			margin-bottom: 30px
+			max-height: 425px
+			overflow: auto
+			+r(992)
+				max-height: none
+				overflow: hidden
+			p
+				display: flex
+				margin-right: 20px
+				margin-bottom: 15px
+				line-height: 1.3em
+				&:last-child
+					margin-bottom: 0
+				+r(768)
+					font-size: 14px
+					margin-bottom: 5px
+					&:last-child
+						margin-bottom: 0
+			span
+				display: inline-block
+				&:nth-child(odd)
+					width: 300px
+					font-weight: 500
+					color: $mine-shaft
+					+r(768)
+						width: 50%
+						margin-right: 10px
+				&:nth-child(even)
+					width: 470px
+					color: $mine-shaft-light
+					+r(768)
+						width: 50%
+		.button__wrapper
+			text-align: right
+			margin-right: 30px
+			+r(992)
+				display: none
+	.swiper-button-next,
+	.swiper-button-prev
+		top: 100px
+		+r(992)
+			top: auto
+			bottom: 70px
+	.swiper-button-next
+		right: 50px
+		left: auto
+		+r(992)
+			right: 20px
+	.swiper-button-prev
+		right: 99px
+		left: auto
+		+r(992)
+			right: 69px
+	.swiper-pagination
+		left: 340px
+		bottom: 80px
+		+r(992)
+			left: 70px
+			bottom: 55px
+	.img_abs
+		position: absolute
+		left: 30px
+		bottom: 200px
+		+r(1600)
+			left: -120px
+		+r(1400)
+			left: -180px
+		+r(1200)
+			left: -230px
+		+r(992)
+			display: none
+	.support-cript
+		position: relative
+		display: flex
+		justify-content: center
+		flex-wrap: wrap
+		align-items: center
+		padding-top: 65px
+		+r(576)
+			padding-top: 30px
+		img
+			max-width: 270px
+			height: auto
+			margin: 0 15px
+			+r(1200)
+				margin: 15px
+				max-width: 220px
+		&__wrapper
+			padding: 70px 0 0
